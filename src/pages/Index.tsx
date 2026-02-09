@@ -376,8 +376,8 @@ const Index = () => {
               {/* Brand Section */}
               <div className="lg:col-span-2">
                 <div className="flex items-center gap-2 mb-6">
-                  <Compass className="w-6 h-6" />
-                  <span className="text-xl font-semibold">Horizon Adventures</span>
+                  <Icon name="Syringe" size={24} />
+                  <span className="text-xl font-semibold">ВакцинаЦентр</span>
                 </div>
                 <p className="text-white/80 leading-relaxed text-pretty">
                   Официальный туроператор экспедиций в Скрытую Долину — крупнейшую пещеру мира. Мы преданы безопасности, охране природы и незабываемым приключениям.
