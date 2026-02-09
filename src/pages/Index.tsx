@@ -264,9 +264,9 @@ const Index = () => {
                     >
                       <h3 className="text-lg font-semibold pr-4">{faq.question}</h3>
                       {openFaq === index ? (
-                        <Minus className="w-5 h-5 flex-shrink-0" />
+                        <Icon name="Minus" size={20} />
                       ) : (
-                        <Plus className="w-5 h-5 flex-shrink-0" />
+                        <Icon name="Plus" size={20} />
                       )}
                     </button>
                     {openFaq === index && (
@@ -357,7 +357,7 @@ const Index = () => {
                     </div>
                   </div>
                   <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg flex items-center justify-center gap-2">
-                    <Mail className="w-4 h-4" />
+                    <Icon name="Mail" size={16} />
                     Написать
                   </Button>
                 </div>
